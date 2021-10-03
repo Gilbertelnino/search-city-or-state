@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Search City Information</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="title">CityInfo</h1>
+        <input type="text" class="search-box" placeholder="City or State" />
+      </nav>
+    </header>
+    <main class="container"></main>
+    <div class="modal hidden">
+      <div class="card">
+        <div class="modal-head">
+          <h2>City detail</h2>
+          <span class="close-btn">x</span>
+        </div>
+        <ul>
+          <li class="city">
+            <h1 class="city">City:</h1>
+          </li>
+          <li class="state">State:</li>
+          <li class="population">Population</li>
+          <li class="rank">Rank:</li>
+          <li class="growth">
+            Growth:
+            <span class="red"></span>
+          </li>
+          <li class="coordinates">Coordinate:</li>
+        </ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
